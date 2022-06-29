@@ -1,8 +1,8 @@
 
-document.querySelector('button').addEventListener('click', getDay){
+document.querySelector('button').addEventListener('click', getDay)
     function getDay(){
 let beta = document.querySelector('input').value
-fetch ()
+fetch ('https://crystallize-the-way-api.herokuapp.com')
 
 .then(res => res.json())
 .then(data =>{
@@ -10,7 +10,7 @@ fetch ()
 })
 document.querySelector.apply('p').innerText=data
 }
-}
+
 
 
 // document.querySelector('button').addEventListener('click', getDrink )
